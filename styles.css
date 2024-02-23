@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Roboto, "Times New Roman", Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: hsla(220, 13%, 91%, 0.87);
+}
+
+
+.dark {
+    background: #1f2937
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1440px;
+    margin: auto;
+    height: 4rem;
+    padding: 0 2em;
+}
+
+.top-nav-wrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.top-nav-main ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    height: 100%;
+    font-size: 1.125rem;
+}
